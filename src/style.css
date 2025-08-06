@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+html,body{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+       
+}
+#hero{
+    background: linear-gradient(to right, transparent, #0c161c), linear-gradient(to bottom, transparent, #0c161c), url('public/assets/images/slide1.png') ;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+   
+} 
+*{
+    scrollbar-width: none;
+}
+.vertical-height{
+height: 450px !important;
+object-fit:  cover;
+
+}
+
+.span-item{
+    @apply border border-[#aaa] inline-flex p-2 items-center gap-3 bg-[#0c161c] rounded-md whitespace-nowrap text-ellipsis min-w-[200px] justify-center ;
+
+        
+
+}
